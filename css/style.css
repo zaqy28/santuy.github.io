@@ -1,0 +1,253 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #272525;
+	min-height: 100%;
+}
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #272525
+}
+.bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+.index{
+	min-width: 360px;
+	padding-top: 10px;
+	position: relative;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.75);
+	border-bottom: 3px solid #d49e9e;
+}
+header a:hover{
+	min-width: 360px;
+	color: #8370f1;
+	font-weight: bold;
+}
+.logo{
+	width: auto;
+    height: 100px;
+    padding-left: 50px;
+}
+.menu{
+	float: right;
+	list-style: none;
+	padding-top: 30px;
+	text-shadow: 5px 5px 7px rgb(238, 174, 252);
+}
+.menu li{
+	display: inline-block;
+	float: left;
+}
+.menu a{
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 60px;
+    font-weight: 700;
+	padding: 25px 25px;
+	color: #eeeeee;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+	/* akhir header */
+	
+	/* section */
+
+	.full .lb {
+		min-height: 400px;
+		min-width: 360px;
+		width: 100%;
+		padding-top: 100px;
+		padding-bottom: 150px;
+		position: relative;
+		color: #272525
+			
+}
+	.lb h2{
+		text-align: center;
+		font-size: 28px;
+		text-shadow: 2px 2px 5px rgb(31, 28, 28);
+	}
+	.lb h1{
+		line-height: 2;
+		text-align: center;
+		font-size: 30px;
+		text-shadow: 2px 2px 5px rgb(31, 28, 28);
+	}
+	
+	.lb p {
+		color:#272525(255, 255, 255);
+		font-size: 25px;
+		line-height: 1.5;
+		text-align: center;
+		padding-top: 30px;
+		padding-left: 130px;
+		padding-right: 100px;
+		position: relative;
+		
+	}	
+	/* section */
+
+	/* footer */
+	footer{
+		border-top: 3px solid #272525;
+		text-align: center;
+		font-size: 16px;
+		line-height: 1;
+		color: aliceblue;
+		background-color: black;
+		padding-bottom: 10px;
+	}
+	
+.fb{
+	width:43px ;
+	height: 35px;
+}
+.tw{
+	width:43px ;
+	height: 38px;
+}
+.yt{
+	width:43px ;
+	height: 35px;
+}
+.ig{
+	width:43px ;
+	height: 35px;
+}
+	/* akhir footer */
+
+.full{
+	background: url("../gblain/background-1747784_1280.jpg")
+}
+
+/* akhir index */
+/* GALERI */
+
+.isi_galeri{
+		min-width: 360px;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		text-align: center;
+		position: relative;
+		background: url("../gambar/web-design-2906159_1920.jpg");	
+		height: 1500px;
+		width: auto;
+}
+.isi_galeri h1{
+	padding-top: 0px;
+	color: aliceblue;
+	padding-bottom: 50px;
+	font-size: 30px;
+
+}
+.gambar{
+	margin: 5px 50px 5px 50px;
+    padding: 30px 30px 10px 30px;
+    border: 1px solid rgb(56, 97, 38);
+    float: left;
+    height: 280px;
+}
+.gambar:hover {
+    float: left;
+    border: 1px solid rgb(56, 97, 38);
+    box-shadow: 0px 20px 20px 0px rgb(148, 157, 233);
+    height: 280px;    
+  }
+  .desc {
+    background: #098e92;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s ease all;
+  }
+.isi_galeri img{
+	width: 250px;
+	margin: 5px;
+	border:10px;
+   border-style: solid;
+   border-color: rgb(231, 218, 218);
+   padding: 2px;
+   background: rgb(15, 15, 15);
+	}
+
+
+/* TUUTUP GALERI */
+
+/* kontak.html */
+.contact-section {
+	min-height: 400px;
+	min-width: 360px;
+	color: rgb(119, 119, 230);
+	padding: 0px 500px;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	position: relative;
+	background: url("../gb/forest-931706_1920.jpg") ;
+	color: aliceblue;
+	}
+
+
+	/* akhir kontak.html */
+
+/* ABOUT */
+
+.about-section{ 
+	min-height: 400px;
+	min-width: 360px;
+	border-radius: 15px 15px 15px 15px;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+.about-section{
+	background: url("../gb/sky-690293_1920.jpg")
+}
+table .blueTable{
+	
+		border-left: 1px solid #1C6EA4;
+		background-color: #EEEEEE;
+		width: 100%;
+		text-align: center;
+		border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+	border: 1px solid #AAAAAA;
+	padding: 10px 10px;
+  }
+  table.blueTable .isi-table td {
+	font-size: 13px;
+  }
+  table.blueTable tr:nth-child(even) {
+	background: #D0E4F5;
+  }
+  
+table.blueTable .entitas {
+	background: #1C6EA4;
+	background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+	background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+	background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+	border-bottom: 2px solid #444444;
+  }
+  table.blueTable .entitas th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-left: 2px solid #D0E4F5;
+  }
+  table.blueTable .entitas th:first-child {
+	border-left: none;
+  }
+  
+  
+
